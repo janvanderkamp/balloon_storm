@@ -1,0 +1,3 @@
+PostMessage( CreateNamedMessage( kQuitNow, "quit" ) );
+
+

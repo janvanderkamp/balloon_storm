@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE sequence SYSTEM "sidewalkdtd">
+<sequence
+    name="C:\depot\personal\nina\minesweeper\assets\anim\balloon-burst2.xml"
+    source=".\balloon-burst_*.png">
+    <img
+        regx="99"
+        regy="117"
+        name="balloon-burst.png"
+        w="0"
+        h="0">
+    </img>
+    <framelist>
+        <frame
+            regx="38"
+            regy="42"
+            x="0"
+            y="110"
+            w="76"
+            h="84"
+            name="balloon-burst_21.png">
+        </frame>
+        <frame
+            regx="45"
+            regy="47"
+            x="75"
+            y="110"
+            w="90"
+            h="94"
+            name="balloon-burst_22.png">
+        </frame>
+        <frame
+            regx="52"
+            regy="52"
+            x="165"
+            y="110"
+            w="104"
+            h="104"
+            name="balloon-burst_23.png">
+        </frame>
+        <frame
+            regx="60"
+            regy="59"
+            x="271"
+            y="110"
+            w="130"
+            h="118"
+            name="balloon-burst_24.png">
+        </frame>
+		<!-- THIS FIFTH FRAME IS THE SAME AS THE FOURTH, BUT WILL NEVER BE REACHED. IT IS USED TO DETERMINE 
+		IF THE ANIMATION HAS FINISHED  -->
+		<frame
+            regx="60"
+            regy="59"
+            x="271"
+            y="110"
+            w="130"
+            h="118"
+            name="balloon-burst_25.png">
+        </frame>
+    </framelist>
+    <timeline name="main" frametime="100" > 
+		<keyframe name="start" frame="1" time="100" />
+		<keyframe frame="2" time="100" />
+		<keyframe frame="3" />
+		<keyframe frame="4" />
+		<keyframe frame="5" /> 
+	</timeline>
+</sequence>

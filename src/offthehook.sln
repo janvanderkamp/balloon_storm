@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "offthehook", "offthehook.vcproj", "{4BF2FFAD-5CF8-4FF8-B238-330BC8B9B66B}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = offthehook.vcproj
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		SccProjectFilePathRelativizedFromConnection0 = src\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugDLL|Win32 = DebugDLL|Win32
+		DebugStatic|Win32 = DebugStatic|Win32
+		ReleaseDLL|Win32 = ReleaseDLL|Win32
+		ReleaseStatic|Win32 = ReleaseStatic|Win32
+		ReleaseWithDebugInfo|Win32 = ReleaseWithDebugInfo|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BF2FFAD-5CF8-4FF8-B238-330BC8B9B66B}.DebugDLL|Win32.ActiveCfg = DebugDLL|Win32
+		{4BF2FFAD-5CF8-4FF8-B238-330BC8B9B66B}.DebugDLL|Win32.Build.0 = DebugDLL|Win32
+		{4BF2FFAD-5CF8-4FF8-B238-330BC8B9B66B}.DebugStatic|Win32.ActiveCfg = DebugStatic|Win32
+		{4BF2FFAD-5CF8-4FF8-B238-330BC8B9B66B}.DebugStatic|Win32.Build.0 = DebugStatic|Win32
+		{4BF2FFAD-5CF8-4FF8-B238-330BC8B9B66B}.ReleaseDLL|Win32.ActiveCfg = ReleaseDLL|Win32
+		{4BF2FFAD-5CF8-4FF8-B238-330BC8B9B66B}.ReleaseDLL|Win32.Build.0 = ReleaseDLL|Win32
+		{4BF2FFAD-5CF8-4FF8-B238-330BC8B9B66B}.ReleaseStatic|Win32.ActiveCfg = ReleaseStatic|Win32
+		{4BF2FFAD-5CF8-4FF8-B238-330BC8B9B66B}.ReleaseStatic|Win32.Build.0 = ReleaseStatic|Win32
+		{4BF2FFAD-5CF8-4FF8-B238-330BC8B9B66B}.ReleaseWithDebugInfo|Win32.ActiveCfg = ReleaseWithDebugInfo|Win32
+		{4BF2FFAD-5CF8-4FF8-B238-330BC8B9B66B}.ReleaseWithDebugInfo|Win32.Build.0 = ReleaseWithDebugInfo|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
